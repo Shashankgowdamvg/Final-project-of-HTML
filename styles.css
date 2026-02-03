@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: darkslategrey;
+  font-family: "sans-serif";
+}
+h1 {
+  background-color: navy;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid red;
+  -webkit-text-stroke: 1px greenyellow;
+}
+h2 {
+  color: blueviolet;
+  background-color: aqua;
+  border-left: 8px solid red;
+  border-radius: 10px;
+}
+h3 {
+  color: yellow;
+}
+audio {
+  width: 100%;
+  background-color: green;
+  border-radius: 30px;
+  box-shadow: 0 0 30px lime;
+  filter: invert(100%);
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(100, 85, 0);
+}
+del {
+  color: blueviolet;
+  background-color: red;
+  text-decoration: line-through;
+}
+img {
+  border-radius: 15px;
+  border: 3px solid gold;
+  box-shadow: 0 0 20px rgb(0, 242, 255);
+}
+video {
+  border: 3px solid gold;
+  border-radius: 15px;
+  box-shadow: 0 0 20px aqua;
+}
+p {
+  color: aqua;
+}
